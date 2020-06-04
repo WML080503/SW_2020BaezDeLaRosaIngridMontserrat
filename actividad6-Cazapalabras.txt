@@ -1,0 +1,3 @@
+EXPRESION REGULAR: 
+(^[Rr]egex|[Rr]egex(?<![a-zA-Z0-9äÄëËïÏöÖüÜáéíóúáéíóúÁÉÍÓÚÂÊÎÔÛâêîôûàèìòùÀÈÌÒÙ\-_])|[Rr]egex(?![a-zA-Z0-9äÄëËïÏöÖüÜáéíóúáéíóúÁÉÍÓÚÂÊÎÔÛâêîôûàèìòùÀÈÌÒÙ\-_])|[Rr]egex(?=,)|[Rr]egex(?=\.)|[Rr]egex(?<=\()|[Rr]egex(?=\))|[Rr]egex(?<=\[)|[Rr]egex(?=\])|[Rr]egex(?<=')|[Rr]egex(?=')|[Rr]egex(?<=")|[Rr]egex(?=")|[Rr]egex$)
+MODIFICADORES: gm
