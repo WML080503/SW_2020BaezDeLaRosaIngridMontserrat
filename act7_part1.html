@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Usuarios</title>
+  </head>
+  <body>
+    <form action="../dynamics/php/act7_part1.php" method="post">
+        <legend><h4>Profesor o Funcionario</h4></legend>
+        Nombre:<br><input type="text" name="nombre" value="" required placeholder="Iniciar con Mayusculas" title="Debe empezar con mayusculas" pattern='^[A-Z]{1}[A-Za-z]+'><br>
+        2° Nombre:<br><input type="text" name="nombre2" value="" placeholder="Opcional" title="Iniciar con mayusculas" pattern='^[A-Z]{1}[A-Za-z]+'><br>
+        Apellido Paterno:<br><input type="text" name="appa" value="" required placeholder="Iniciar con Mayusculas" title="Debe empezar con mayusculas" pattern='^[A-Z]{1}[A-Za-z]+'><br>
+        Apellido Materno:<br><input type="text" name="apma" value="" required placeholder="Iniciar con Mayusculas" title="Debe empezar con mayusculas" pattern='^[A-Z]{1}[A-Za-z]+'><br>
+        Fecha de Nacimiento:<br><input type="text" name="fn" value="" required placeholder="dd/mm/aaaa" title="Debe seguir el formato" pattern='\d{2}\/\d{2}\/\d{4}'><br>
+        Colegio:<br><input type="text" name="col" value="" required><br>
+        Nombre de Usuario:<br><input type="text" name="RFC" required placeholder="Ecriba su RFC" title="Dato invalido <?php echo $RFC;?>" pattern='^[A-ZÑ]{4,5}\b{6}\w{3}'><br>
+        Contraseña:<br><input type="password" name="cont" value="" required placeholder="Min. 10 carácteres" title="Su contraseña es insegura, debe contener al menos 10 carácteres" pattern='^.{10,30}'><br>
+        <input type="submit" name="" value="ENVIAR">
+  </body>
+</html>
